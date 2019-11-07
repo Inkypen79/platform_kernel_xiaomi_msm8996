@@ -408,7 +408,7 @@ KBUILD_CFLAGS := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		-Wno-format-security \
 		-std=gnu89 $(call cc-option,-fno-PIE) $(OPT_FLAGS)
 
-KBUILD_CFLAGS += -pipe -fmerge-all-constants -fmodulo-sched
+KBUILD_CFLAGS += -pipe -fmerge-all-constants
 
 KBUILD_AFLAGS_KERNEL :=
 KBUILD_CFLAGS_KERNEL :=
